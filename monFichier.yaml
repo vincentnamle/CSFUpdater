@@ -1,0 +1,87 @@
+name: ""
+children:
+    /A:
+        name: /A
+        children:
+            A1.txt:
+                name: A1.txt
+                children: {}
+                isfile: true
+            A2.txt:
+                name: A2.txt
+                children: {}
+                isfile: true
+        isfile: false
+    /B:
+        name: /B
+        children:
+            /B/B1:
+                name: /B/B1
+                children:
+                    1.txt:
+                        name: 1.txt
+                        children: {}
+                        isfile: true
+                    2.txt:
+                        name: 2.txt
+                        children: {}
+                        isfile: true
+                    3.txt:
+                        name: 3.txt
+                        children: {}
+                        isfile: true
+                isfile: false
+            /B/B2:
+                name: /B/B2
+                children:
+                    1.rtf:
+                        name: 1.rtf
+                        children: {}
+                        isfile: true
+                    2.txt:
+                        name: 2.txt
+                        children: {}
+                        isfile: true
+                isfile: false
+        isfile: false
+    /C:
+        name: /C
+        children:
+            1.txt:
+                name: 1.txt
+                children: {}
+                isfile: true
+        isfile: false
+    /D:
+        name: /D
+        children: {}
+        isfile: false
+    /E:
+        name: /E
+        children:
+            1.txt:
+                name: 1.txt
+                children: {}
+                isfile: true
+            2.txt:
+                name: 2.txt
+                children: {}
+                isfile: true
+        isfile: false
+    1.txt:
+        name: 1.txt
+        children: {}
+        isfile: true
+    2.txt:
+        name: 2.txt
+        children: {}
+        isfile: true
+    3.txt:
+        name: 3.txt
+        children: {}
+        isfile: true
+    4.txt:
+        name: 4.txt
+        children: {}
+        isfile: true
+isfile: false
