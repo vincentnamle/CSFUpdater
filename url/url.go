@@ -1,7 +1,7 @@
 package url
 
 import (
-	"UpdaterProject/tree"
+	"github.com/vincentnamle/CSFUpdater/tree"
 	"golang.org/x/net/html"
 	"net/http"
 	"strings"

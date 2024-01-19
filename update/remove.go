@@ -1,8 +1,8 @@
 package update
 
 import (
-	"UpdaterProject/tree"
 	"fmt"
+	"github.com/vincentnamle/CSFUpdater/tree"
 	"os"
 	"strings"
 )

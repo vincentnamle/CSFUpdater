@@ -1,10 +1,10 @@
 package main
 
 import (
-	"UpdaterProject/file"
-	"UpdaterProject/tree"
-	"UpdaterProject/update"
-	"UpdaterProject/url"
+	"github.com/vincentnamle/CSFUpdater/file"
+	"github.com/vincentnamle/CSFUpdater/tree"
+	"github.com/vincentnamle/CSFUpdater/update"
+	"github.com/vincentnamle/CSFUpdater/url"
 	"sync"
 )
 

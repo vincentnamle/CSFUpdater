@@ -1,7 +1,7 @@
 package file
 
 import (
-	"UpdaterProject/tree"
+	"github.com/vincentnamle/CSFUpdater/tree"
 	"os"
 	"strings"
 )
