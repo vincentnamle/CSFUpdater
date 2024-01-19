@@ -10,8 +10,8 @@ import (
 func RemoveInfilePath(localPath, url, subpath string, fileTree tree.Node) error {
 	for _, child := range fileTree.Children {
 		if child.IsFile {
-			subpath2 := strings.ReplaceAll(subpath, "\\", "/")
-			fmt.Println("Downloading " + url + subpath2 + "/" + child.Name + "  to " + localPath + subpath + "\\" + child.Name)
+			//subpath2 := strings.ReplaceAll(subpath, "\\", "/")
+			//fmt.Println("Deleting " + url + subpath2 + "/" + child.Name + "  to " + localPath + subpath + "\\" + child.Name)
 
 			os.Remove(localPath + subpath + "\\" + child.Name)
 		} else {
